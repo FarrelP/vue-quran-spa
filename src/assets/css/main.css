@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #2ecc71;
+    --primary-text-color: #000000;
+    --background-light: #ffffff;
+}
+
+.surah-font {
+    font: 30px 'Amiri', serif;
+}
