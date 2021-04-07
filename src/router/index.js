@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import SurahList from '../views/SurahList.vue'
+import SurahDetail from '../views/SurahDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -22,10 +23,16 @@ const routes = [
     name: 'SurahList',
     component: SurahList
   },
+  {
+    path: '/surah-detail/:id',
+    name: 'SurahDetail',
+    component: SurahDetail
+  },
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router

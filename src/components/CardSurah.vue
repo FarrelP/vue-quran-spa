@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-3">
+  <div class="card mb-3 shadow">
     <div class="card-body">
       <div class="row">
         <div class="col-10">
@@ -11,6 +11,9 @@
           <span class="badge badge-success">{{detailSurah.nomor}}</span>  
         </div>
       </div>
+    </div>
+    <div class="card-footer">
+      <router-link class="btn btn-success stretched-link" :to="'surah-detail/'+detailSurah.nomor">Baca</router-link>
     </div>
   </div>
 </template>

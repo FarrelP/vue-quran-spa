@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-2 mb-2 rounded">
     <div class="container">
       <img src="../assets/images/quran-icon.png" alt="Quran Icon" height="35">
-      <a class="navbar-brand" href="#">Baca Quran Web App</a>
+      <router-link to="/" class="navbar-brand">Baca Quran Web App</router-link>
       <button
         class="navbar-toggler"
         type="button"
