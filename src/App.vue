@@ -1,10 +1,14 @@
 <template>
-  <div id="app">
-    <Navbar/>
-    <router-view/>
-    <go-top></go-top>
-    <Footer/>
-  </div>
+  <body>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <div id="app">
+      <Navbar/>
+      <router-view/>
+      <go-top></go-top>
+      <Footer/>
+    </div>
+  </body>
 </template>
 
 <script>
