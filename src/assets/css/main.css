@@ -4,6 +4,26 @@
     --background-light: #ffffff;
 }
 
+.card-surah-pagination {
+    max-width: 50%;
+    margin-left: 21rem;
+}
+
+.card-surah-pagination a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .surah-font {
     font: 30px 'Amiri', serif;
+}
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .card-surah-pagination {
+            max-width: 100%;
+            margin-left: 0;
+        }
 }

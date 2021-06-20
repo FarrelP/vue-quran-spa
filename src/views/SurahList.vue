@@ -3,7 +3,7 @@
     <h1 class="mt-4 mb-4">Daftar Surat</h1>
 
     <div class="row mb-4">
-        <div class="col-md-4" v-for="surah in arrSurah" :key="surah.nomor">
+        <div class="col-lg-4 col-md-6" v-for="surah in arrSurah" :key="surah.nomor">
           <CardSurah :detailSurah="surah" />
         </div>
       </div>
